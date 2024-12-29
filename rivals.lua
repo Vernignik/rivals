@@ -39,10 +39,8 @@ do
     AimToggle:OnChanged(function()
         if AimToggle.Value then
             _G.LockCameraEnabled = true
-            _G.AutoClickEnabled = true
         else
             _G.LockCameraEnabled = false
-            _G.AutoClickEnabled = false
         end
     end)
 
