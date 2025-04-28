@@ -112,8 +112,10 @@ do
     NameToggle:OnChanged(function()
         if NameToggle.Value then
             Esp.Names = true
+            Esp.HealthBar = true
         else
             Esp.Names = false
+            Esp.HealthBar = true
         end
     end)
 
